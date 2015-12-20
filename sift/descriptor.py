@@ -1,3 +1,11 @@
+"""
+descriptor.py
+
+USAGE : python descriptor.py <name of jpg image file or folder>
+
+Spits out a json file containing the 128 bit image descriptors. Would work with most file formats that are supported by OpenCV,
+just make the necessary changes to line 68.
+"""
 import cv2
 import json
 import os

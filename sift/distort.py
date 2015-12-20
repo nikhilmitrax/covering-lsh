@@ -1,3 +1,11 @@
+"""
+distort.py
+
+USAGE : python distort.py <name of jpg image file or folder>
+
+Distorts the image to generate a test dataset from a set of images.
+"""
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt

@@ -1,3 +1,10 @@
+"""
+test.py
+
+Use this code to compare 2 images based on ORB descriptors. the meat of the editable code
+is in the main checkfunc.
+"""
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
